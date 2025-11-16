@@ -1,0 +1,121 @@
+body{
+    background-color: #646469;;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+#Alpha{
+    width: 80%;
+    margin: 15px auto;
+    border: 3px solid snow;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);;
+    padding: 10px;
+    box-shadow: 0 0 10px #646469;;
+
+}
+
+#header1{
+  color: #2c3e50;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+.subtitleHeader1{
+    color: black;
+}
+
+
+
+#sidebar{
+    width: 25%;
+    background-color: rgb(107, 112, 112);
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.post{
+    background-color: rgb(76, 92, 76);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.post h3{
+    color : white;
+}
+
+#image{
+    border: 5px solid whitesmoke;
+}
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+main, aside {
+    flex: 1;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    padding: 15px;
+    border-radius: 8px;
+}
+
+img {
+    width: 100%;          
+    height: auto;           
+    border-radius: 6px;
+    display: block;    
+}
+
+.image-caption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #000000;
+}
+.mission-article {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Georgia', serif;
+  line-height: 1.6;
+}
+
+.mission-article h1 {
+  color: #2c3e50;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.mission-article h2 {
+  color: #34495e;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 10px;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+input, select, textarea, button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+button {
+  background: #c00;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
